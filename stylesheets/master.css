@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background: #fffbeb;
+  color: #20201f;
+  margin: 0;
+  text-rendering: optimizelegibility; }
+
+h1 {
+  font: 70px/90px "O KURWA", Times, serif;
+  margin: 40px 0 0; }
+
+p {
+  font: 22px/33px "O KURWA", Times, serif;
+  margin: 0 0 10px; }
+
+a {
+  background-image: linear-gradient(to bottom, #fffbeb 50%, #20201f 50%);
+  background-position: 0 25px;
+  background-repeat: repeat-x;
+  background-size: 20px 2px;
+  color: #20201f;
+  text-decoration: none; }
+
+.at {
+  left: 1px;
+  position: relative; }
+
+.descender {
+  background: #fffbeb;
+  text-shadow: 2px 0 #fffbeb, -2px 0 #fffbeb; }
+
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .container header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .container header:last-child {
+      margin-right: 0; }
+    .container header h1 + p {
+      margin-top: -10px; }
+  .container .keywords {
+    border-top: 3px solid #20201f;
+    padding-top: 20px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .container .keywords:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=master.css.map */
